@@ -8,3 +8,7 @@ To Learn more, run-through the official tutorials from Google: https://cloud.goo
 * **Predict.sql** - Use this to predict the timestampe for when the soil will be dry based on select window of soil values
 
 Link to (actual) data from my houseplants: https://github.com/gstrodel/BigQueryML/blob/master/values_device_e00fce686cca2e41f1f43762_rqhrz.csv
+
+
+Note: This is very similar in function to the Google Tutorial on Linear Regression: https://cloud.google.com/bigquery/docs/bigqueryml-natality
+
