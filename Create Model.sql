@@ -7,10 +7,10 @@ UNIX_SECONDS( TIMESTAMP(FORMAT_TIMESTAMP('%F %T', human_readable_date, "America/
 ,avg(soil) as raw_soil_value
 FROM `smartplant31.plant_sensor.raw_sensor_data` 
 WHERE
- human_readable_date >='2019-04-28 00:00:00'
- and  human_readable_date <'2019-05-01 00:00:00'
+ human_readable_date >='2019-04-28 00:00:00-4'
+ and  human_readable_date <'2019-05-01 00:00:00-4'
  and soil is not null
 GROUP BY  human_readable_date
- ORDER BY human_readable_date DESC
+ ORDER BY human_readable_date ASC
 
  
